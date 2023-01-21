@@ -1,0 +1,56 @@
+/* Todos los elementos HTML usarán la fuente "Open Sans", sans-serif */
+
+* {
+    font-family: "Open Sans", sans-serif;
+}
+
+/* El elemento body sin margen y sin relleno */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#wd {
+    display: grid;
+    grid-template-areas: "area1 area1 area4"
+                        "area2 area3 area4"
+                        "area2 area5 area4";
+}
+
+#title {
+    grid-area: area1;
+}
+
+#datos {
+    grid-area: area3;
+    width: 400px;
+    justify-self: center;
+}
+
+#front {
+    align-self: center;
+    justify-self: center;
+    width: fit-content;
+    padding: 5px;
+    box-shadow: 0 1px 6px rgb(0 0 0 / 12%), 0 1px 4px rgb(0 0 0 / 24%);
+}
+
+#pics {
+    grid-area: area4;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-between;
+    flex: 1 1 0px;
+}
+
+#pics img {
+    width: min-content;
+    order: 4 1 2 3;
+}
+
+#publish {
+    grid-area: area5;
+    text-align: right;
+}
