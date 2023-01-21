@@ -60,6 +60,8 @@ nav ul{
                         "area4 area4 area5 area5"
                         "area4 area4 area5 area5"
                         "area4 area4 area5 area5";
+    gap: 20px;
+    border: #373B41;
 }
 
 #uno {
@@ -76,6 +78,10 @@ nav ul{
 
 #cuatro {
     grid-area: area4;
+}
+
+form {
+    border-style: double;
 }
 
 #cinco {
