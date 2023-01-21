@@ -81,3 +81,19 @@ nav ul{
 #cinco {
     grid-area: area5;
 }
+
+nav ul{
+    display:flex;
+    justify-content: space-around;
+}
+
+#foot {
+    display: flex;
+    flex-direction: column;
+}
+
+#seccioncontactenos form{
+    display:flex;
+    flex-direction: column;
+    align-items: baseline;
+}
