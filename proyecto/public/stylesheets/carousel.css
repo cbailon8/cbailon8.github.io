@@ -25,6 +25,7 @@ body {
 /* Declare heights because of positioning of img element */
 .carousel-item {
   height: 32rem;
+  position: relative
 }
 
 
@@ -79,4 +80,19 @@ body {
   .featurette-heading {
     margin-top: 7rem;
   }
+}
+
+.carousel-img {
+  position:absolute;
+  top:50%;
+  transform: translateY(-50%);
+}
+
+.bg {
+  filter: brightness(0.5) !important;
+  width: auto;
+  height: 100%;
+  position:absolute;
+  left: 50%;
+  transform: translateX(-50%);
 }
