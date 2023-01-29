@@ -1,43 +1,168 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
-      crossorigin="anonymous"
-    />
-    <link href="public/stylesheets/wishlist.css" rel="stylesheet" />
-    <script src="https://getbootstrap.com/docs/5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-    <title>My library</title>
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <body>
-    <header>
-        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="#">Steam Library</a>
-            <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-              <ul class="navbar-nav me-auto mb-2 mb-md-0">
-                <li class="nav-item">
-                  <a class="nav-link" aria-current="page" href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Wishlist</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
-      </header>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+  <link href="public/stylesheets/wishlist.css" rel="stylesheet" />
+  <script src="https://getbootstrap.com/docs/5.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+  <title>My wishlist</title>
+</head>
 
+<body>
+  <header>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Steam Library</a>
+        <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Wishlist</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
 
-  </body>
+  <div class="my-4">
+    <h1 class='text-center'>Wishlist</h1>
+    <p class='text-center'>Games I don't have on my library which I have or have not played before.</p>
+  </div>
+
+  <div class="row mx-4 my-2">
+    <div class="col-md-4 text-center">
+      <img src="https://steamcdn-a.akamaihd.net/steam/apps/570940/library_600x900_2x.jpg" class="img-thumbnail my-auto">
+    </div>
+    <div class="col-md-8 shadow border my-auto">
+      <h2 class="mt-4">DARK SOULS™: REMASTERED</h2>
+      <p class="text-start mt-4">
+        Remastered version of the first Dark Souls, and an absolute masterpiece. I have completed the game at least 3
+        times, but the replayability it's huge, and what can I say, the pain of
+        Dark Souls is fun. And this version includes the DLC, which it's one of the best segments of the game and the
+        story of this first title.
+      </p>
+      <div class="mb-2"><small class="text-muted">Current price: 39.99 USD</small></div>
+    </div>
+  </div>
+  <div class="row mx-4 my-2">
+    <div class="col-md-4 text-center">
+      <img src="https://steamcdn-a.akamaihd.net/steam/apps/335300/library_600x900_2x.jpg" class="img-thumbnail my-auto">
+    </div>
+    <div class="col-md-8 shadow border my-auto">
+      <h2 class="mt-4">DARK SOULS™ II: Scholar of the First Sin</h2>
+      <p class="text-start mt-4">
+        Remastered version of the Dark Souls II, which includes all 3 DLCs for this game. This game is... controversial
+        to say the least, because it's really different from the usual Dark Souls. And in a sincere opinion, as much as
+        I hated playing this game, the experience is incredible. It's definitely the worst entry of the series, but
+        still a much better game than current-day releases.
+      </p>
+      <div class="mb-2"><small class="text-muted">Current price: 39.99 USD</small></div>
+    </div>
+  </div>
+  <div class="row mx-4 my-2">
+    <div class="col-md-4 text-center">
+      <img src="https://steamcdn-a.akamaihd.net/steam/apps/374320/library_600x900_2x.jpg" class="img-thumbnail my-auto">
+    </div>
+    <div class="col-md-8 shadow border my-auto">
+      <h2 class="mt-4">DARK SOULS™ III</h2>
+      <p class="text-start mt-4">
+        The one and only Dark Souls I haven't experienced yet, but another masterpiece. Brought the best from the first
+        title and even adopted elements from the gameplay and lore from the second one. The best way to close a series.
+        This version doesn't include DLCs, they have to be bought separately.
+      </p>
+      <div class="mb-2"><small class="text-muted">Current price: 59.99 USD</small></div>
+    </div>
+  </div>
+  <div class="row mx-4 my-2">
+    <div class="col-md-4 text-center">
+      <img src="https://steamcdn-a.akamaihd.net/steam/apps/814380/library_600x900_2x.jpg" class="img-thumbnail my-auto">
+    </div>
+    <div class="col-md-8 shadow border my-auto">
+      <h2 class="mt-4">Sekiro™: Shadows Die Twice - GOTY Edition</h2>
+      <p class="text-start mt-4">
+        Another release from FromSoftware, developer of Dark Souls, and another title of the Souls genre. A game with a
+        different gameplay style from the usual Dark Souls, but with mostly the same death penalties. An absolute must
+        play for fans, and I want to play it. It even won the Game of the Year award, so yeah, the public approves.
+      </p>
+      <div class="mb-2"><small class="text-muted">Current price: 59.99 USD</small></div>
+    </div>
+  </div>
+  <div class="row mx-4 my-2">
+    <div class="col-md-4 text-center">
+      <img src="https://steamcdn-a.akamaihd.net/steam/apps/1245620/library_600x900_2x.jpg"
+        class="img-thumbnail my-auto">
+    </div>
+    <div class="col-md-8 shadow border my-auto">
+      <h2 class="mt-4">ELDEN RING</h2>
+      <p class="text-start mt-4">
+        Latest release from developer FromSoftware, and Game of the Year 2022. They surpassed themselves with this
+        Souls-like open-world RPG. It's enough with medieval themes to pick my interest, but this game goes beyond that,
+        picking elements from their other titles like Bloodborne and Sekiro, making their ultimate work and sort of love
+        letter to what they've created.
+      </p>
+      <div class="mb-2"><small class="text-muted">Current price: 59.99 USD</small></div>
+    </div>
+  </div>
+  <div class="row mx-4 my-2">
+    <div class="col-md-4 text-center">
+      <img src="https://steamcdn-a.akamaihd.net/steam/apps/546560/library_600x900_2x.jpg" class="img-thumbnail my-auto">
+    </div>
+    <div class="col-md-8 shadow border my-auto">
+      <h2 class="mt-4">Half-Life: Alyx</h2>
+      <p class="text-start mt-4">
+        After 15+ years, we didn't get Half-Life 3, but we got something awesome indeed. The good and the bad part of
+        this game is that is a VR experience, but Valve really knows how to push the boundaries of technology with their
+        engines. The most inmersive VR game yet, and a Half-Life title to keep us alive until (hopefully) Half-Life 3
+        sees the light of day.
+      </p>
+      <div class="mb-2"><small class="text-muted">Current price: 59.99 USD</small></div>
+    </div>
+  </div>
+  <div class="row mx-4 my-2">
+    <div class="col-md-4 text-center">
+      <img src="https://steamcdn-a.akamaihd.net/steam/apps/271590/library_600x900_2x.jpg" class="img-thumbnail my-auto">
+    </div>
+    <div class="col-md-8 shadow border my-auto">
+      <h2 class="mt-4">Grand Theft Auto V</h2>
+      <p class="text-start mt-4">
+        A classic series of open-world RPG games where you are technically the bad guy? I mean, you play as a criminal,
+        so it's bad? It's still fun anyways, and this last title it's so iconic after almost a decade. I have the game
+        bought on another platform, but Steam has its advantages.
+      </p>
+      <div class="mb-2"><small class="text-muted">Current price: 19.99 USD</small></div>
+    </div>
+  </div>
+  <div class="row mx-4 my-2">
+    <div class="col-md-4 text-center">
+      <img src="https://steamcdn-a.akamaihd.net/steam/apps/1687950/library_600x900_2x.jpg"
+        class="img-thumbnail my-auto">
+    </div>
+    <div class="col-md-8 shadow border my-auto">
+      <h2 class="mt-4">Persona 5 Royal</h2>
+      <p class="text-start mt-4">
+        Persona is a spin-off series from the Shin Megami Tensei games. I hadn't seen a single Persona title before this
+        one, but it caught my attention. Even if the art style isn't particularly my favorite, it's still pretty cool.
+        And the OSTs are absolutely bangers. I'm sure this will be a very good introduction to this series. And this
+        games touch topics that are actually really sensitive IRL, so it would really be an experience.
+      </p>
+      <div class="mb-2"><small class="text-muted">Current price: 59.99 USD</small></div>
+    </div>
+  </div>
+</body>
+
 </html>
