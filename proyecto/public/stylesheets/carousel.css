@@ -22,11 +22,11 @@ body {
 .carousel-caption {
   bottom: 3rem;
   z-index: 10;
-  -webkit-text-stroke: 1px black;
 }
 
 .carousel-caption h1{
   font-size: 3em;
+  -webkit-text-stroke: 1.5px black;
 }
 
 /* Declare heights because of positioning of img element */
