@@ -33,3 +33,7 @@ h2 {
 small {
     font-weight: bold;
 }
+
+.col-md-8 {
+    background-color: lightgray;
+}
